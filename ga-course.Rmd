@@ -1,0 +1,85 @@
+---
+title: "Curso Google Analytics"
+subtitle: "</br>"
+author: "Omar Gonzáles Díaz"
+date: "24/04/2017"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+background-image: url(https://developers.google.com/analytics/images/terms/logo_lockup_analytics_icon_vertical_black_2x.png)
+background-position: 100px 100px
+
+???
+
+Image credit: [Wikimedia Commons]()
+
+---
+class: center, middle
+
+# Curso de Google Analytics
+
+
+---
+class: inverse, center, middle
+
+# Introducción
+
+---
+
+# Estructura de Google Analytics
+
+
+
+- **Cuenta:**
+Dependiendo de la estructura de la empresa pueden existir una o múltiples cuentas. En casi todos los casos solo es necesario una cuenta para contener todas las propiedades digitales de una organización. Si la organización es muy grande se puede considerar la creación de una o más de una cuenta.
+
+
+
+- **Propiedad:**
+Una propiedad es una web o una aplicación que cuenta con un dominio o subdominio (namespace en el caso de aplicaciones móviles). No se deben crear propiedades para medir la interacción en carpetas individuales de un dominio, salvo algunas excepciones, tales como limitaciones a nivel técnico o restricciones de acceso a la información. Límite: 50 propiedades por cuenta.
+
+
+
+- **Vista:**
+Una nueva propiedad, crea por defecto una vista principal. Esta vista no debe ser alternada y debe mantenerse como vista por defecto, sin ningún tipo de filtro u objetivos. Esta vista servirá como backup de la información en caso se produzca algún error en la configuración de Google Analytics. Una vez que se ha suprimido una vista dispone de un plazo de 35 días para restaurarla. Límite 25 vistas por propiedad.
+
+
+
+
+---
+
+# Dimensiones y métricas
+
+-**Dimensión:**
+Las dimensiones son atributos de los datos (países de procedencia de los usuarios, dispositivo móvil de la visita, etc).
+
+-**Métrica:**
+Las métricas son datos numéricos (cantidad de sesiones, cantidad de páginas vistas, etc).
+
+
+![Caption for the picture.](\\img\\dim-metrics.png)
+
+
+---
+
+
+# Dimensiones y métricas
+
+Un buen analista debe saber combinar las dimensiones con las métricas pra obtener insights más valiosos.
+
+Por ejemplo, si tenemos la dimensión "Ciudad", podríamos cominarla con la métrica "Sesiones"  y así averigüar de qué ciudad tenemos más visitas a nuestra página web.
+
+
+_Tipos de métricas:_
+
+![Métricas](\\img\\metrics.png)
